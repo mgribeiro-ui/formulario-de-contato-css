@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link src="script.js"  </script>
+    <link rel="stylesheet" href="contato.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Criando um Formulário de Contato</h2>
+        
+        
+        <form action="#" method="POST">
+            
+            
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required placeholder="seuemail@exemplo.com">
+
+           
+            <label for="assunto">Assunto:</label>
+            <select id="assunto" name="assunto" required>
+                <option value="" disabled selected>Selecione um assunto...</option>
+                <option value="suporte">Suporte Técnico</option>
+                <option value="comercial">Comercial / Vendas</option>
+                <option value="sugestao">Dúvidas ou Sugestões</option>
+            </select>
+
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Digite sua mensagem aqui..."></textarea>
+
+            
+            <button type="submit">Enviar Mensagem</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
